@@ -644,7 +644,7 @@ img {
 }
 
 .modal-window-input:focus .modal-window-label_svg {
-  fill: var(--iris);
+  fill: #4d5ae5;
 }
 
 .modal-window-form-comment {

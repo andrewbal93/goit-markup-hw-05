@@ -639,6 +639,7 @@ img {
   position: absolute;
   left: 16px;
   top: 50%;
+  fill: var(--navy-blue);
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -665,6 +666,13 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+}
+
+.modal-window-form-textarea::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  letter-spacing: 0.48px;
 }
 
 .modal-window-form-textarea:focus {
@@ -685,6 +693,7 @@ img {
 .userprivacy-span {
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -719,13 +728,6 @@ img {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
